@@ -1,0 +1,7 @@
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\Singular Systems Self-Kiosk Software.csproj.AssemblyReference.cache
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\Singular Systems Self-Kiosk Software.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\Singular Systems Self-Kiosk Software.AssemblyInfoInputs.cache
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\Singular Systems Self-Kiosk Software.AssemblyInfo.cs
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\Singular Systems Self-Kiosk Software.csproj.CoreCompileInputs.cache
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\Singular Systems Self-Kiosk Software.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\Singular Systems Self-Kiosk Software.MvcApplicationPartsAssemblyInfo.cache

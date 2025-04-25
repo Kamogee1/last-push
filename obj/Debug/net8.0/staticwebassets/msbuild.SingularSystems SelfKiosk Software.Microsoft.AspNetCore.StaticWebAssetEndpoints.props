@@ -1,0 +1,52 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/03b3aece-b119-41ec-98e5-21aca6dbe49d.0o41174fre.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\03b3aece-b119-41ec-98e5-21aca6dbe49d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0o41174fre"},{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/03b3aece-b119-41ec-98e5-21aca6dbe49d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:10:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/03b3aece-b119-41ec-98e5-21aca6dbe49d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\03b3aece-b119-41ec-98e5-21aca6dbe49d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:10:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/e0aa7592-c729-4691-aa9f-6a5161064dde.0o41174fre.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e0aa7592-c729-4691-aa9f-6a5161064dde.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0o41174fre"},{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/e0aa7592-c729-4691-aa9f-6a5161064dde.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:54:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/e0aa7592-c729-4691-aa9f-6a5161064dde.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e0aa7592-c729-4691-aa9f-6a5161064dde.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:54:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/09da5352-9d7c-4cff-b9d1-4e5fe390dd66.0o41174fre.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0o41174fre"},{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:10:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:10:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/db23b5a7-2573-4f79-a86c-ea3739f289b8.0o41174fre.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0o41174fre"},{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:54:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:54:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

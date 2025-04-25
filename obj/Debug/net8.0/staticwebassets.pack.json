@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KModise\\source\\repos\\MyWebApplication1\\MyWebApplication1\\wwwroot\\images\\03b3aece-b119-41ec-98e5-21aca6dbe49d.jpg",
+      "PackagePath": "staticwebassets\\images\\03b3aece-b119-41ec-98e5-21aca6dbe49d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KModise\\source\\repos\\MyWebApplication1\\MyWebApplication1\\wwwroot\\images\\e0aa7592-c729-4691-aa9f-6a5161064dde.jpg",
+      "PackagePath": "staticwebassets\\images\\e0aa7592-c729-4691-aa9f-6a5161064dde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KModise\\source\\repos\\MyWebApplication1\\MyWebApplication1\\wwwroot\\images\\products\\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KModise\\source\\repos\\MyWebApplication1\\MyWebApplication1\\wwwroot\\images\\products\\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SingularSystems SelfKiosk Software.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SingularSystems SelfKiosk Software.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SingularSystems SelfKiosk Software.props",
+      "PackagePath": "build\\SingularSystems SelfKiosk Software.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SingularSystems SelfKiosk Software.props",
+      "PackagePath": "buildMultiTargeting\\SingularSystems SelfKiosk Software.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SingularSystems SelfKiosk Software.props",
+      "PackagePath": "buildTransitive\\SingularSystems SelfKiosk Software.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

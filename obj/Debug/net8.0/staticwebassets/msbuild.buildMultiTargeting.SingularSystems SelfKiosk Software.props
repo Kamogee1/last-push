@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SingularSystems SelfKiosk Software.props" />
+</Project>
