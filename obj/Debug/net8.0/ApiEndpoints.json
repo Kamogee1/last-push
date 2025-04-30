@@ -512,5 +512,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SingularKiosk.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "SingularSystems_SelfKiosk_Software.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

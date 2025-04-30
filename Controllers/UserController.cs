@@ -8,6 +8,7 @@ using SingularSystems_SelfKiosk_Software.DTO;
 using Microsoft.AspNetCore.Identity;
 using System.Text.RegularExpressions;
 using BCrypt.Net;
+using SingularSystems_SelfKiosk_Software.Models;
 
 namespace SingularKiosk.Controllers
 {
@@ -63,20 +64,17 @@ namespace SingularKiosk.Controllers
         {
             try
             {
-                // Email must match format and domain
                 if (!Regex.IsMatch(dto.UserEmail, @"^[^@\s]+@singular\.com$", RegexOptions.IgnoreCase))
                 {
                     return BadRequest("Email must be in the format 'yourname@singular.com'.");
                 }
 
-                // Password complexity check
                 if (string.IsNullOrWhiteSpace(dto.UserPassword) ||
                     !Regex.IsMatch(dto.UserPassword, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$"))
                 {
                     return BadRequest("Password must be at least 8 characters long and contain uppercase, lowercase, number, and symbol.");
                 }
 
-                // Determine role based on email
                 int roleId = dto.UserEmail.Contains("admin@singular.com", StringComparison.OrdinalIgnoreCase) ? 1 : 2;
 
                 var hashedPassword = BCrypt.Net.BCrypt.HashPassword(dto.UserPassword);
@@ -89,29 +87,33 @@ namespace SingularKiosk.Controllers
                     UserEmail = dto.UserEmail,
                     UserPassword = hashedPassword,
                     IsActive = true,
-                    RoleId = roleId // Assigned here automatically
+                    RoleId = roleId
                 };
 
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
 
-                // Successful creation response
+                var wallet = new Wallet
+                {
+                    UserId = user.UserId,
+                    Balance = 0.00m,
+                    CustomerTransactions = new List<CustomerTransaction>()
+                };
+
+                _context.Wallets.Add(wallet);
+                await _context.SaveChangesAsync();
+
                 return CreatedAtAction(nameof(GetUser), new { id = user.UserId }, new { message = "Successfully created a profile." });
             }
             catch (Exception ex)
             {
-                // Error handling for exceptions
                 Console.WriteLine($"Error creating profile: {ex.Message}");
                 return StatusCode(500, new { message = "Profile could not be created." });
             }
-            
         }
-        
-        
 
-
-         // PUT: api/users/{id}
-         [HttpPut("{id}")]
+        // PUT: api/users/{id}
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, UserRegistrationDTO dto)
         {
             var user = await _context.Users.FindAsync(id);
@@ -125,7 +127,6 @@ namespace SingularKiosk.Controllers
                 return BadRequest("Email must be in the format 'yourname@singular.com'.");
             }
 
-            // Determine role again in case the email is updated
             user.RoleId = dto.UserEmail.Contains("admin@singular.com", StringComparison.OrdinalIgnoreCase) ? 1 : 2;
 
             user.UserName = dto.UserName;
@@ -172,5 +173,44 @@ namespace SingularKiosk.Controllers
                 return StatusCode(500, new { message = "User could not be deleted." });
             }
         }
+
+        // ✅ POST: api/users/login
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
+        {
+            Console.WriteLine($"Login attempt: Email={loginDto.userEmail}, Password={loginDto.password}");
+
+            if (string.IsNullOrWhiteSpace(loginDto.userEmail) || string.IsNullOrWhiteSpace(loginDto.password))
+                return BadRequest("Email and password are required.");
+
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors)
+                                              .Select(e => e.ErrorMessage)
+                                              .ToList();
+                Console.WriteLine("Validation Errors: " + string.Join(", ", errors));
+                return BadRequest(errors);
+            }
+
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.UserEmail == loginDto.userEmail);
+
+            if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.password, user.UserPassword))
+            {
+                return Unauthorized(new { message = "Invalid email or password." });
+            }
+
+            return Ok(new
+            {
+                message = "Login successful.",
+                userId = user.UserId,
+                name = user.Name,
+                role = user.RoleId
+            });
+        }
+
+    
+        }
+
     }
-}
+

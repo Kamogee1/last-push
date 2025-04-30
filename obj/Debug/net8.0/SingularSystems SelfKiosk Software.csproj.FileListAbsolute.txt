@@ -1,27 +1,13 @@
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.exe
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.IO.Pipelines.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\appsettings.json
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Controllers\Properties\launchSettings.json
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.staticwebassets.runtime.json
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.staticwebassets.endpoints.json
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.exe
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.deps.json
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.runtimeconfig.json
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.pdb
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\BCrypt.Net-Next.dll
@@ -35,13 +21,22 @@ C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -50,9 +45,13 @@ C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -61,13 +60,17 @@ C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -169,9 +172,6 @@ C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\SingularSystems SelfKiosk Software.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\refint\SingularSystems SelfKiosk Software.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\SingularSystems SelfKiosk Software.pdb
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.deps.json
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.runtimeconfig.json
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\bin\Debug\net8.0\SingularSystems SelfKiosk Software.pdb
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\SingularSystems SelfKiosk Software.genruntimeconfig.cache
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\ref\SingularSystems SelfKiosk Software.dll
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
