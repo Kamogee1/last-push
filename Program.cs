@@ -13,11 +13,12 @@ builder.Services.AddControllers()
     {
         options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
     });
+
 // Register the DataContext with SQL Server
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add CORS policy
+// Add CORS policy for the frontend
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
@@ -34,7 +35,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure middleware pipeline
+// Configure the middleware pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -43,10 +44,15 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// ? Serve static files (needed for image access from wwwroot)
+app.UseStaticFiles();
+
+// Enable CORS
 app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 
+// Map controller routes
 app.MapControllers();
 
 app.Run();

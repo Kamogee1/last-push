@@ -1,4 +1,0 @@
-wwwroot\images\03b3aece-b119-41ec-98e5-21aca6dbe49d.jpg
-wwwroot\images\e0aa7592-c729-4691-aa9f-6a5161064dde.jpg
-wwwroot\images\products\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg
-wwwroot\images\products\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg

@@ -1,19 +1,12 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Migrations.Operations;
-using Microsoft.Identity.Client;
 using Singular_Systems_SelfKiosk_Software.Models;
 using SingularSystems_SelfKiosk_Software.Data;
 using SingularSystems_SelfKiosk_Software.DTO;
 
-
-
 namespace SingularSystems_SelfKiosk_Software.Controllers
 {
-    [Microsoft.AspNetCore.Mvc.Route("api/products")]
+    [Route("api/products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -24,11 +17,9 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
             _context = context;
         }
 
-        //GET: api/Product
-
+        // GET: api/products
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts(int page = 1, int size = 10) 
-
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts(int page = 1, int size = 10)
         {
             if (page <= 0) page = 1;
             if (size <= 0 || size > 100) size = 10;
@@ -38,7 +29,6 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
                 .Skip((page - 1) * size)
                 .Take(size)
                 .Select(p => new ProductDTO
-
                 {
                     ProductId = p.ProductId,
                     ProductName = p.ProductName,
@@ -47,59 +37,45 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
                     IsAvailable = p.IsAvailable,
                     LastUpdated = p.LastUpdated,
                     ImageUrl = p.Image,
-                    CategoryId = p.CategoryId,
-                    CategoryName = p.Category.CategoryName
-
+                    CategoryId = p.CategoryId
                 })
-
-            .ToListAsync();
+                .ToListAsync();
 
             return Ok(products);
-
         }
 
-        // GET: api/products/5
+        // GET: api/products/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
             var product = await _context.Products
-               .Include(p => p.Category)
-               .Where(p => p.ProductId == id)
-               .Select(p => new ProductDTO
-
-               { 
-                   ProductId = p.ProductId,
-                   ProductName = p.ProductName,
-                   Price = p.Price,
-                   Quantity = p.Quantity,
-                   IsAvailable = p.IsAvailable,
-                   LastUpdated = p.LastUpdated,
-                   CategoryId = p.CategoryId,
-                   CategoryName = p.Category.CategoryName,
-
-                   ImageUrl = string.IsNullOrEmpty(p.Image)
-               ? null
-               : $"{Request.Scheme}://{Request.Host}/{p.Image}"
-
-               })
-
-                 .FirstOrDefaultAsync();
+                .Include(p => p.Category)
+                .Where(p => p.ProductId == id)
+                .Select(p => new ProductDTO
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.ProductName,
+                    Price = p.Price,
+                    Quantity = p.Quantity,
+                    IsAvailable = p.IsAvailable,
+                    LastUpdated = p.LastUpdated,
+                    CategoryId = p.CategoryId,
+                    ImageUrl = string.IsNullOrEmpty(p.Image)
+                        ? null
+                        : $"{Request.Scheme}://{Request.Host}/{p.Image}"
+                })
+                .FirstOrDefaultAsync();
 
             if (product == null)
-            {
                 return NotFound(new { message = "Product not found." });
-            }
 
             return Ok(product);
         }
 
-
-        //GET api/products/category/1?page=1&size=10
-        [HttpGet("Category/{categoryId}")]
-
+        // GET: api/products/category/{categoryId}?page=1&size=10
+        [HttpGet("category/{categoryId}")]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProductsByCategory(int categoryId, int page = 1, int size = 10)
         {
-
             if (page <= 0) page = 1;
             if (size <= 0 || size > 100) size = 10;
 
@@ -120,55 +96,45 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
                         IsAvailable = p.IsAvailable,
                         LastUpdated = p.LastUpdated,
                         ImageUrl = p.Image,
-                        CategoryId = p.CategoryId,
-                        CategoryName = p.Category.CategoryName
+                        CategoryId = p.CategoryId
                     })
                     .ToListAsync();
 
-
                 if (!products.Any())
-                {
                     return NotFound(new { message = "No products found for the specified category." });
-                }
-                return Ok(products);
 
+                return Ok(products);
             }
             catch (Exception ex)
-
             {
-                Console.WriteLine($"Error fetching products : {ex.Message}");
+                Console.WriteLine($"Error fetching products: {ex.Message}");
                 return StatusCode(500, new { message = "An error occurred while fetching products." });
-
             }
         }
 
         // POST: api/products
         [HttpPost]
         public async Task<ActionResult> CreateProduct([FromBody] ProductDTO dto)
-
         {
-            if (string.IsNullOrEmpty(dto.Description))
-            {
-                return BadRequest("Description is required.");
-            }
-
             if (string.IsNullOrWhiteSpace(dto.ProductName))
                 return BadRequest(new { message = "Product name is required." });
 
-            if ((dto.Price <= 0))   
-                return BadRequest(new { message = "Price must be greater than 0" });
+            if (string.IsNullOrWhiteSpace(dto.Description))
+                return BadRequest(new { message = "Description is required." });
+
+            if (dto.Price <= 0)
+                return BadRequest(new { message = "Price must be greater than 0." });
 
             if (dto.Quantity < 0)
-                return BadRequest(new { message = "Quantity cannot be negetive" });
+                return BadRequest(new { message = "Quantity cannot be negative." });
 
             var categoryExists = await _context.Categories.AnyAsync(c => c.CategoryId == dto.CategoryId);
-            if(!categoryExists)
-                return BadRequest(new { message = "Invalid CategeotyId" });
+            if (!categoryExists)
+                return BadRequest(new { message = "Invalid CategoryId." });
 
             var defaultSupplier = await _context.Suppliers.FirstOrDefaultAsync();
             if (defaultSupplier == null)
-                return BadRequest("No supplier exists. Please add one before creating a product.");
-
+                return BadRequest(new { message = "No supplier exists. Please add one before creating a product." });
 
             var product = new Product
             {
@@ -180,7 +146,6 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
                 CategoryId = dto.CategoryId,
                 SupplierId = dto.SupplierId ?? defaultSupplier.SupplierId,
                 LastUpdated = DateTime.UtcNow,
-
                 Image = null
             };
 
@@ -188,30 +153,26 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetProduct), new { id = product.ProductId }, new { message = "Product created successfully." });
-
         }
 
-        // PUT: api/products/5
+        // PUT: api/products/{id}
         [HttpPut("{id}")]
-
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductDTO dto) 
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductDTO dto)
         {
-
-
             if (id != dto.ProductId)
                 return BadRequest(new { message = "Product ID mismatch." });
 
             if (string.IsNullOrWhiteSpace(dto.ProductName))
                 return BadRequest(new { message = "Product name is required." });
 
+            if (string.IsNullOrWhiteSpace(dto.Description))
+                return BadRequest(new { message = "Product description is required." });
+
             if (dto.Price <= 0)
                 return BadRequest(new { message = "Price must be greater than 0." });
 
             if (dto.Quantity < 0)
                 return BadRequest(new { message = "Quantity cannot be negative." });
-
-            if (string.IsNullOrWhiteSpace(dto.Description))
-                return BadRequest(new { message = "Product description is required." });
 
             var categoryExists = await _context.Categories.AnyAsync(c => c.CategoryId == dto.CategoryId);
             if (!categoryExists)
@@ -235,7 +196,7 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
             return Ok(new { message = "Product updated successfully." });
         }
 
-
+        // POST: api/products/{id}/upload-image
         [HttpPost("{id}/upload-image")]
         public async Task<IActionResult> UploadProductImage(int id, IFormFile file)
         {
@@ -252,7 +213,6 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
             if (product == null)
                 return NotFound("Product not found.");
 
-            // Save file to wwwroot/images/products
             var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "products");
             if (!Directory.Exists(uploadsFolder))
                 Directory.CreateDirectory(uploadsFolder);
@@ -265,8 +225,7 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
                 await file.CopyToAsync(stream);
             }
 
-            // Store absolute image URL
-            var imageUrl = $"{Request.Scheme}://{Request.Host}/images/products/{uniqueFileName}";
+            var imageUrl = $"images/products/{uniqueFileName}";
             product.Image = imageUrl;
 
             _context.Entry(product).State = EntityState.Modified;
@@ -275,12 +234,11 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
             return Ok(new
             {
                 message = "Image uploaded successfully.",
-                imageUrl = imageUrl
+                imageUrl = $"{Request.Scheme}://{Request.Host}/{imageUrl}"
             });
         }
 
-
-        // DELETE: api/product/5
+        // DELETE: api/products/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
@@ -306,46 +264,5 @@ namespace SingularSystems_SelfKiosk_Software.Controllers
                 return StatusCode(500, new { message = "An error occurred while deleting the product." });
             }
         }
-
-
-        private async Task<string> UploadImageAsync(IFormFile file)
-        {
-            // 1. Generate a unique file name
-            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-
-            // 2. Choose a folder to save the image
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
-
-            // 3. Make sure the folder exists
-            Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-
-            // 4. Save the file
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.CopyToAsync(stream);
-            }
-
-            // 5. Return the relative path or full URL
-            var imageUrl = $"/images/{fileName}"; // or full URL like $"https://localhost:5001/images/{fileName}"
-            return imageUrl;
-        }
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-     

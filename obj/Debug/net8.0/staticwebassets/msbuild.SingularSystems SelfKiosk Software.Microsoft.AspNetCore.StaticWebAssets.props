@@ -54,6 +54,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3633fac2-9c9d-4746-81a0-6111056de97d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/3633fac2-9c9d-4746-81a0-6111056de97d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9x3xo3jgdx</Fingerprint>
+      <Integrity>HcaRkAgB0yRQJRFLZJpZOb0pxlstP3nWqFaqEcfjioM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3633fac2-9c9d-4746-81a0-6111056de97d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>SingularSystems SelfKiosk Software</SourceId>

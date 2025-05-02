@@ -174,4 +174,3 @@ C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\SingularSystems SelfKiosk Software.pdb
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\SingularSystems SelfKiosk Software.genruntimeconfig.cache
 C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\ref\SingularSystems SelfKiosk Software.dll
-C:\Users\KModise\source\repos\MyWebApplication1\MyWebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
