@@ -24,6 +24,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:54:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/064de2ed-efcd-45b5-855e-b4bfcabc0d5e.885jvby9fd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\064de2ed-efcd-45b5-855e-b4bfcabc0d5e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"885jvby9fd"},{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/064de2ed-efcd-45b5-855e-b4bfcabc0d5e.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:02:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/064de2ed-efcd-45b5-855e-b4bfcabc0d5e.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\064de2ed-efcd-45b5-855e-b4bfcabc0d5e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:02:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/09da5352-9d7c-4cff-b9d1-4e5fe390dd66.0o41174fre.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -35,6 +47,42 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:10:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/185e27f4-abb8-4791-a843-60bdd459131a.c15volycwc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\185e27f4-abb8-4791-a843-60bdd459131a.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c15volycwc"},{"Name":"integrity","Value":"sha256-wCgIHznCjXuOQf3UzuKMdhxoql6tXzKyoCM19ZUOld0="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/185e27f4-abb8-4791-a843-60bdd459131a.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"828322"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wCgIHznCjXuOQf3UzuKMdhxoql6tXzKyoCM19ZUOld0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 09:51:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/185e27f4-abb8-4791-a843-60bdd459131a.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\185e27f4-abb8-4791-a843-60bdd459131a.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wCgIHznCjXuOQf3UzuKMdhxoql6tXzKyoCM19ZUOld0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"828322"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wCgIHznCjXuOQf3UzuKMdhxoql6tXzKyoCM19ZUOld0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 09:51:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/19e79d6d-d046-49ba-b084-498adf541db5.885jvby9fd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\19e79d6d-d046-49ba-b084-498adf541db5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"885jvby9fd"},{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/19e79d6d-d046-49ba-b084-498adf541db5.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 12:28:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/19e79d6d-d046-49ba-b084-498adf541db5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\19e79d6d-d046-49ba-b084-498adf541db5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 12:28:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/2789c7ff-2f64-4cac-8dca-fda18c0906f0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\2789c7ff-2f64-4cac-8dca-fda18c0906f0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:39:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/2789c7ff-2f64-4cac-8dca-fda18c0906f0.s18tgpizyv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\2789c7ff-2f64-4cac-8dca-fda18c0906f0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s18tgpizyv"},{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/2789c7ff-2f64-4cac-8dca-fda18c0906f0.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:39:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/3633fac2-9c9d-4746-81a0-6111056de97d.9x3xo3jgdx.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3633fac2-9c9d-4746-81a0-6111056de97d.jpg'))</AssetFile>
@@ -48,6 +96,126 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HcaRkAgB0yRQJRFLZJpZOb0pxlstP3nWqFaqEcfjioM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"112043"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HcaRkAgB0yRQJRFLZJpZOb0pxlstP3nWqFaqEcfjioM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 02 May 2025 10:25:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/37ec3d89-c857-43c0-991f-4e991f519991.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\37ec3d89-c857-43c0-991f-4e991f519991.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:31:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/37ec3d89-c857-43c0-991f-4e991f519991.s18tgpizyv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\37ec3d89-c857-43c0-991f-4e991f519991.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s18tgpizyv"},{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/37ec3d89-c857-43c0-991f-4e991f519991.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:31:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/3d8d433c-15de-4f73-a335-a5b3235a3812.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3d8d433c-15de-4f73-a335-a5b3235a3812.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dp73nJNDJYXH3dax0CQGGXjuPvvdPZcy17lFpwsLSPE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13663"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dp73nJNDJYXH3dax0CQGGXjuPvvdPZcy17lFpwsLSPE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 11:18:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/3d8d433c-15de-4f73-a335-a5b3235a3812.q46i28pqs3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3d8d433c-15de-4f73-a335-a5b3235a3812.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q46i28pqs3"},{"Name":"integrity","Value":"sha256-dp73nJNDJYXH3dax0CQGGXjuPvvdPZcy17lFpwsLSPE="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/3d8d433c-15de-4f73-a335-a5b3235a3812.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13663"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dp73nJNDJYXH3dax0CQGGXjuPvvdPZcy17lFpwsLSPE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 11:18:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/49ff7ae6-7668-4ac5-a744-99aa10aa25ad.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\49ff7ae6-7668-4ac5-a744-99aa10aa25ad.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y228nUj\u002B/XYRPBP6SNj6cJ8ivmu6O5tzKwQLH2Zesxc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26302"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Y228nUj\u002B/XYRPBP6SNj6cJ8ivmu6O5tzKwQLH2Zesxc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 09:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/49ff7ae6-7668-4ac5-a744-99aa10aa25ad.vp4eyz98ds.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\49ff7ae6-7668-4ac5-a744-99aa10aa25ad.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vp4eyz98ds"},{"Name":"integrity","Value":"sha256-Y228nUj\u002B/XYRPBP6SNj6cJ8ivmu6O5tzKwQLH2Zesxc="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/49ff7ae6-7668-4ac5-a744-99aa10aa25ad.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26302"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Y228nUj\u002B/XYRPBP6SNj6cJ8ivmu6O5tzKwQLH2Zesxc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 09:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/63d8b961-2cd2-4f55-9292-8a099b479c56.885jvby9fd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\63d8b961-2cd2-4f55-9292-8a099b479c56.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"885jvby9fd"},{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/63d8b961-2cd2-4f55-9292-8a099b479c56.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:26:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/63d8b961-2cd2-4f55-9292-8a099b479c56.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\63d8b961-2cd2-4f55-9292-8a099b479c56.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:26:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/673716f1-936f-4d13-9a7c-f023bc1f74c4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\673716f1-936f-4d13-9a7c-f023bc1f74c4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:30:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/673716f1-936f-4d13-9a7c-f023bc1f74c4.s18tgpizyv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\673716f1-936f-4d13-9a7c-f023bc1f74c4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s18tgpizyv"},{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/673716f1-936f-4d13-9a7c-f023bc1f74c4.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:30:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/84204efb-d31e-4e55-a529-c8617b6ee82d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\84204efb-d31e-4e55-a529-c8617b6ee82d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BiSfZnnnT3WIfIR0lMcEc2WK0yPW57ahsR8GR8pN6Ek="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"35090"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BiSfZnnnT3WIfIR0lMcEc2WK0yPW57ahsR8GR8pN6Ek=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:28:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/84204efb-d31e-4e55-a529-c8617b6ee82d.m1031u2rjp.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\84204efb-d31e-4e55-a529-c8617b6ee82d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m1031u2rjp"},{"Name":"integrity","Value":"sha256-BiSfZnnnT3WIfIR0lMcEc2WK0yPW57ahsR8GR8pN6Ek="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/84204efb-d31e-4e55-a529-c8617b6ee82d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35090"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BiSfZnnnT3WIfIR0lMcEc2WK0yPW57ahsR8GR8pN6Ek=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:28:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/a8e61c50-ef30-4f75-aece-f846de7653b4.885jvby9fd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\a8e61c50-ef30-4f75-aece-f846de7653b4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"885jvby9fd"},{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/a8e61c50-ef30-4f75-aece-f846de7653b4.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 14:14:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/a8e61c50-ef30-4f75-aece-f846de7653b4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\a8e61c50-ef30-4f75-aece-f846de7653b4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 14:14:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/ab8e931c-c016-41eb-bc6f-af95fc12c28d.885jvby9fd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\ab8e931c-c016-41eb-bc6f-af95fc12c28d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"885jvby9fd"},{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/ab8e931c-c016-41eb-bc6f-af95fc12c28d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:31:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/ab8e931c-c016-41eb-bc6f-af95fc12c28d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\ab8e931c-c016-41eb-bc6f-af95fc12c28d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:31:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:20:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.s18tgpizyv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s18tgpizyv"},{"Name":"integrity","Value":"sha256-AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1072820"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AD6nOhX\u002Bov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 09:20:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/d9c49900-5a55-4c74-ae40-53183da0cc2d.hlzo92w4xz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d9c49900-5a55-4c74-ae40-53183da0cc2d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hlzo92w4xz"},{"Name":"integrity","Value":"sha256-NbtlkW4O/qI1PB8NjkzoaGaprZ6DLSDhXwUXhv\u002BuNAI="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/d9c49900-5a55-4c74-ae40-53183da0cc2d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62625"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NbtlkW4O/qI1PB8NjkzoaGaprZ6DLSDhXwUXhv\u002BuNAI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 11:27:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/d9c49900-5a55-4c74-ae40-53183da0cc2d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d9c49900-5a55-4c74-ae40-53183da0cc2d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NbtlkW4O/qI1PB8NjkzoaGaprZ6DLSDhXwUXhv\u002BuNAI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62625"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NbtlkW4O/qI1PB8NjkzoaGaprZ6DLSDhXwUXhv\u002BuNAI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 11:27:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/db23b5a7-2573-4f79-a86c-ea3739f289b8.0o41174fre.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -59,6 +227,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44576"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224OrpD3A2K1899boKEa3H8fv9/LNvrzgQ8SYN7ALOWXg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2025 10:54:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/eff88923-2f52-40af-b0f7-8c0a8bdf348d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\eff88923-2f52-40af-b0f7-8c0a8bdf348d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DUGuWgNFeHurUJFR\u002BqM9PBUK4pbFvIPAEnB9KC/q4j0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DUGuWgNFeHurUJFR\u002BqM9PBUK4pbFvIPAEnB9KC/q4j0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:46:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/eff88923-2f52-40af-b0f7-8c0a8bdf348d.vdsh9jkkmp.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\eff88923-2f52-40af-b0f7-8c0a8bdf348d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vdsh9jkkmp"},{"Name":"integrity","Value":"sha256-DUGuWgNFeHurUJFR\u002BqM9PBUK4pbFvIPAEnB9KC/q4j0="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/eff88923-2f52-40af-b0f7-8c0a8bdf348d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DUGuWgNFeHurUJFR\u002BqM9PBUK4pbFvIPAEnB9KC/q4j0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:46:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/fb2b3f42-4d79-44bd-8776-ed7239b355a5.885jvby9fd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fb2b3f42-4d79-44bd-8776-ed7239b355a5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"885jvby9fd"},{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="},{"Name":"label","Value":"_content/SingularSystems SelfKiosk Software/images/products/fb2b3f42-4d79-44bd-8776-ed7239b355a5.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:42:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SingularSystems SelfKiosk Software/images/products/fb2b3f42-4d79-44bd-8776-ed7239b355a5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fb2b3f42-4d79-44bd-8776-ed7239b355a5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72738"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 13:42:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

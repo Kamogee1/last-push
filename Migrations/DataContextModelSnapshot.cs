@@ -30,13 +30,13 @@ namespace SingularSystems_SelfKiosk_Software.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerTransactionId"));
 
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(10,2)");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("OrderId")
+                    b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<string>("Status")
@@ -206,7 +206,6 @@ namespace SingularSystems_SelfKiosk_Software.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsAvailable")
@@ -300,8 +299,7 @@ namespace SingularSystems_SelfKiosk_Software.Migrations
                     b.HasOne("Singular_Systems_SelfKiosk_Software.Models.Order", "Order")
                         .WithMany("CustomerTransactions")
                         .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("SingularSystems_SelfKiosk_Software.Models.Wallet", "Wallet")
                         .WithMany("CustomerTransactions")

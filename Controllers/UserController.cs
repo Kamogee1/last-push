@@ -9,6 +9,10 @@ using Microsoft.AspNetCore.Identity;
 using System.Text.RegularExpressions;
 using BCrypt.Net;
 using SingularSystems_SelfKiosk_Software.Models;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace SingularKiosk.Controllers
 {
@@ -17,10 +21,12 @@ namespace SingularKiosk.Controllers
     public class UsersController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IConfiguration _configuration;
 
-        public UsersController(DataContext context)
+        public UsersController(DataContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         // GET: api/users
@@ -64,21 +70,30 @@ namespace SingularKiosk.Controllers
         {
             try
             {
+                // Check if user already exists
+                var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.UserEmail == dto.UserEmail);
+                if (existingUser != null)
+                    return BadRequest("User already exists.");
+
+                  // Validate email domain 
                 if (!Regex.IsMatch(dto.UserEmail, @"^[^@\s]+@singular\.com$", RegexOptions.IgnoreCase))
                 {
                     return BadRequest("Email must be in the format 'yourname@singular.com'.");
                 }
 
+                // Validate password complexity
                 if (string.IsNullOrWhiteSpace(dto.UserPassword) ||
                     !Regex.IsMatch(dto.UserPassword, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$"))
                 {
                     return BadRequest("Password must be at least 8 characters long and contain uppercase, lowercase, number, and symbol.");
                 }
 
+                // Determine role based on email
                 int roleId = dto.UserEmail.Contains("admin@singular.com", StringComparison.OrdinalIgnoreCase) ? 1 : 2;
 
                 var hashedPassword = BCrypt.Net.BCrypt.HashPassword(dto.UserPassword);
 
+                // Create user
                 var user = new User
                 {
                     UserName = dto.UserName,
@@ -103,7 +118,13 @@ namespace SingularKiosk.Controllers
                 _context.Wallets.Add(wallet);
                 await _context.SaveChangesAsync();
 
-                return CreatedAtAction(nameof(GetUser), new { id = user.UserId }, new { message = "Successfully created a profile." });
+                return CreatedAtAction(nameof(GetUser), new { id = user.UserId }, new
+                {
+                    message = "Successfully created a profile.",
+                    userId = user.UserId,
+                    roleId = user.RoleId,
+                    walletId = wallet
+                });
             }
             catch (Exception ex)
             {
@@ -192,7 +213,9 @@ namespace SingularKiosk.Controllers
                 return BadRequest(errors);
             }
 
+            // ✅ Load user including their Wallet
             var user = await _context.Users
+                .Include(u => u.Wallet)
                 .FirstOrDefaultAsync(u => u.UserEmail == loginDto.userEmail);
 
             if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.password, user.UserPassword))
@@ -200,17 +223,50 @@ namespace SingularKiosk.Controllers
                 return Unauthorized(new { message = "Invalid email or password." });
             }
 
+            var token = GenerateJwtToken(user);
+
+            // Return user object with walletId inside user
             return Ok(new
             {
                 message = "Login successful.",
-                userId = user.UserId,
-                name = user.Name,
-                role = user.RoleId
+                token = token,
+                user = new
+                {
+                    userId = user.UserId,
+                    name = user.Name,
+                    email = user.UserEmail,
+                    role = user.RoleId,
+                    userRole = user.RoleId == 1 ? "admin" : "user",
+                    walletId = user.Wallet?.Id 
+                }
             });
         }
 
-    
+        // JWT Token Generator
+        private string GenerateJwtToken(User user)
+        {
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.UserEmail),
+                new Claim("userId", user.UserId.ToString()),
+                new Claim(ClaimTypes.Role, user.RoleId == 1 ? "admin" : "user"),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: null,
+                claims: claims,
+                expires: DateTime.Now.AddHours(3),
+                signingCredentials: creds);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+    }
 
     }
 

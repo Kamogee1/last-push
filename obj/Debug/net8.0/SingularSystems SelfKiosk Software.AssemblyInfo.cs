@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SingularSystems SelfKiosk Software")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2bfb1989545ba35ba0e9b4cc7708b6c0a3e2669")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fb2f1528a84666aa9a524d761f2b4d18e1b6a21")]
 [assembly: System.Reflection.AssemblyProductAttribute("SingularSystems SelfKiosk Software")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SingularSystems SelfKiosk Software")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

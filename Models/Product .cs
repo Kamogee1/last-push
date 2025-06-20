@@ -6,12 +6,11 @@ namespace Singular_Systems_SelfKiosk_Software.Models
 {
     public class Product
 {
-        public int ProductId { get; set; } // Primary Key
-
+        public int ProductId { get; set; } 
         [Required]
-        public int CategoryId { get; set; } // Foreign Key into the Product Table 
+        public int CategoryId { get; set; } 
 
-        public  int? SupplierId { get; set; } // Foreign Key into the Product Table 
+        public  int? SupplierId { get; set; } 
        
         [Required]
         [StringLength(100)]

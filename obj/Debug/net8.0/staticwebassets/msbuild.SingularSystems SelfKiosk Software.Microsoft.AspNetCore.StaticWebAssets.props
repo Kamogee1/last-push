@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e0aa7592-c729-4691-aa9f-6a5161064dde.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\064de2ed-efcd-45b5-855e-b4bfcabc0d5e.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/064de2ed-efcd-45b5-855e-b4bfcabc0d5e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>885jvby9fd</Fingerprint>
+      <Integrity>OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\064de2ed-efcd-45b5-855e-b4bfcabc0d5e.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>SingularSystems SelfKiosk Software</SourceId>
@@ -53,6 +71,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\09da5352-9d7c-4cff-b9d1-4e5fe390dd66.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\185e27f4-abb8-4791-a843-60bdd459131a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/185e27f4-abb8-4791-a843-60bdd459131a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c15volycwc</Fingerprint>
+      <Integrity>wCgIHznCjXuOQf3UzuKMdhxoql6tXzKyoCM19ZUOld0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\185e27f4-abb8-4791-a843-60bdd459131a.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\19e79d6d-d046-49ba-b084-498adf541db5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/19e79d6d-d046-49ba-b084-498adf541db5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>885jvby9fd</Fingerprint>
+      <Integrity>OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\19e79d6d-d046-49ba-b084-498adf541db5.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\2789c7ff-2f64-4cac-8dca-fda18c0906f0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/2789c7ff-2f64-4cac-8dca-fda18c0906f0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s18tgpizyv</Fingerprint>
+      <Integrity>AD6nOhX+ov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\2789c7ff-2f64-4cac-8dca-fda18c0906f0.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3633fac2-9c9d-4746-81a0-6111056de97d.jpg'))">
       <SourceType>Package</SourceType>
@@ -72,6 +144,186 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3633fac2-9c9d-4746-81a0-6111056de97d.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\37ec3d89-c857-43c0-991f-4e991f519991.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/37ec3d89-c857-43c0-991f-4e991f519991.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s18tgpizyv</Fingerprint>
+      <Integrity>AD6nOhX+ov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\37ec3d89-c857-43c0-991f-4e991f519991.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3d8d433c-15de-4f73-a335-a5b3235a3812.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/3d8d433c-15de-4f73-a335-a5b3235a3812.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q46i28pqs3</Fingerprint>
+      <Integrity>dp73nJNDJYXH3dax0CQGGXjuPvvdPZcy17lFpwsLSPE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3d8d433c-15de-4f73-a335-a5b3235a3812.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\49ff7ae6-7668-4ac5-a744-99aa10aa25ad.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/49ff7ae6-7668-4ac5-a744-99aa10aa25ad.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vp4eyz98ds</Fingerprint>
+      <Integrity>Y228nUj+/XYRPBP6SNj6cJ8ivmu6O5tzKwQLH2Zesxc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\49ff7ae6-7668-4ac5-a744-99aa10aa25ad.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\63d8b961-2cd2-4f55-9292-8a099b479c56.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/63d8b961-2cd2-4f55-9292-8a099b479c56.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>885jvby9fd</Fingerprint>
+      <Integrity>OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\63d8b961-2cd2-4f55-9292-8a099b479c56.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\673716f1-936f-4d13-9a7c-f023bc1f74c4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/673716f1-936f-4d13-9a7c-f023bc1f74c4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s18tgpizyv</Fingerprint>
+      <Integrity>AD6nOhX+ov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\673716f1-936f-4d13-9a7c-f023bc1f74c4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\84204efb-d31e-4e55-a529-c8617b6ee82d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/84204efb-d31e-4e55-a529-c8617b6ee82d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m1031u2rjp</Fingerprint>
+      <Integrity>BiSfZnnnT3WIfIR0lMcEc2WK0yPW57ahsR8GR8pN6Ek=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\84204efb-d31e-4e55-a529-c8617b6ee82d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\a8e61c50-ef30-4f75-aece-f846de7653b4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/a8e61c50-ef30-4f75-aece-f846de7653b4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>885jvby9fd</Fingerprint>
+      <Integrity>OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\a8e61c50-ef30-4f75-aece-f846de7653b4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\ab8e931c-c016-41eb-bc6f-af95fc12c28d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/ab8e931c-c016-41eb-bc6f-af95fc12c28d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>885jvby9fd</Fingerprint>
+      <Integrity>OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\ab8e931c-c016-41eb-bc6f-af95fc12c28d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s18tgpizyv</Fingerprint>
+      <Integrity>AD6nOhX+ov/495OADtswqPqJbK0sp7NoGd35cJCjB6c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\bcf78fd1-4a97-4cfc-aee4-5c9eba6e82f2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d9c49900-5a55-4c74-ae40-53183da0cc2d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/d9c49900-5a55-4c74-ae40-53183da0cc2d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hlzo92w4xz</Fingerprint>
+      <Integrity>NbtlkW4O/qI1PB8NjkzoaGaprZ6DLSDhXwUXhv+uNAI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d9c49900-5a55-4c74-ae40-53183da0cc2d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>SingularSystems SelfKiosk Software</SourceId>
@@ -89,6 +341,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\db23b5a7-2573-4f79-a86c-ea3739f289b8.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\eff88923-2f52-40af-b0f7-8c0a8bdf348d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/eff88923-2f52-40af-b0f7-8c0a8bdf348d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vdsh9jkkmp</Fingerprint>
+      <Integrity>DUGuWgNFeHurUJFR+qM9PBUK4pbFvIPAEnB9KC/q4j0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\eff88923-2f52-40af-b0f7-8c0a8bdf348d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fb2b3f42-4d79-44bd-8776-ed7239b355a5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SingularSystems SelfKiosk Software</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SingularSystems SelfKiosk Software</BasePath>
+      <RelativePath>images/products/fb2b3f42-4d79-44bd-8776-ed7239b355a5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>885jvby9fd</Fingerprint>
+      <Integrity>OIxgc2g2KR8QtgC81OcED0N0H5MRWe1Tm8rLUK3MxuI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fb2b3f42-4d79-44bd-8776-ed7239b355a5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -25,8 +25,6 @@ namespace Singular_Systems_SelfKiosk_Software.Models
        // Navigation property:  
         public  User User { get; set; }
 
-
-        
         public  ICollection<OrderItem> OrderItems { get; set; } // Navigation property
         public ICollection<CustomerTransaction> CustomerTransactions { get; set; } // Navigation property
 
